@@ -1,0 +1,27 @@
+{
+  "name": "docker-nestjs-api",
+  "version": "1.0.0",
+  "description": "Production-grade NestJS 11 REST API starter on Node.js 22, packaged as a multi-stage Docker image.",
+  "author": "Lê Đức Minh",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "11.1.26",
+    "@nestjs/core": "11.1.26",
+    "@nestjs/platform-express": "11.1.26",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "11.0.22",
+    "@types/node": "22.15.3",
+    "typescript": "5.8.3"
+  }
+}
